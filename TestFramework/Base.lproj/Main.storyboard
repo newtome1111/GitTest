@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestFramework" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsg-bk-XH7">
+                                <rect key="frame" x="245" y="285" width="111" height="30"/>
+                                <state key="normal" title="openStoryboard"/>
+                                <connections>
+                                    <action selector="openStoryboard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hyH-oj-E3E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fE-xE-E4U">
+                                <rect key="frame" x="251" y="421" width="78" height="30"/>
+                                <state key="normal" title="loadImage"/>
+                                <connections>
+                                    <action selector="loadImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Our-9x-6SO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBd-66-guu">
+                                <rect key="frame" x="262" y="132" width="57" height="30"/>
+                                <state key="normal" title="openXib"/>
+                                <connections>
+                                    <action selector="openXib:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j0e-wV-2Qa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rsg-bk-XH7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6AU-Uh-vbV"/>
+                            <constraint firstItem="Rsg-bk-XH7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gEH-9C-iuL"/>
+                            <constraint firstItem="cBd-66-guu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xcD-RG-wJG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="360"/>
+        </scene>
+    </scenes>
+</document>
